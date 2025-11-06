@@ -1,14 +1,49 @@
 # Piyush-s-blog
 
-![Python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Framework-black?logo=flask)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Database](https://img.shields.io/badge/Database-SQLite-orange)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 
 ## 📝 Description
 
-Piyush-s-blog is a personal blog project built using Python. While specific features are not listed, it is reasonable to assume core blogging functionalities are present. This could include creating, reading, updating, and deleting (CRUD) blog posts. Future enhancements could involve adding user authentication, comment sections, and a more visually appealing front-end.
+Piyush’s Blog is a full-stack blogging web application built using the Flask framework.  
+It allows users to create, read, update, and delete (CRUD) blog posts through a clean, responsive interface.  
+
+The project includes user authentication, an admin dashboard, and a comment section powered by Flask extensions such as CKEditor, Bootstrap, and Gravatar.  
+
+This project demonstrates skills in web development, backend logic, database management, and authentication systems.  
+
+## ✨ Features
+
+### 🧾 Blog Management
+- 📝 Create, edit, delete, and view posts  
+- 🧑‍💼 Admin-only access for managing content  
+- 🎨 Rich text post editor with Flask-CKEditor  
+
+### 🔐 Authentication System
+- 👤 Register, log in, and log out securely  
+- 🔒 Passwords hashed with Werkzeug Security  
+- 🧭 Session-based login handling  
+
+### 💬 Comment Section
+- 💭 Logged-in users can comment on posts  
+- 🧑‍🎨 Gravatar integration for avatars  
+
+### 🎨 Responsive UI
+- 📱 Built with Flask-Bootstrap for a modern, mobile-friendly layout  
+
 
 ## 🛠️ Tech Stack
 
-- 🐍 Python
+| Category | Technologies |
+|-----------|--------------|
+| Backend | Python, Flask |
+| Frontend | HTML, CSS, Bootstrap, CKEditor |
+| Database | SQLite with SQLAlchemy ORM |
+| Authentication | Flask-Login, Werkzeug Security |
+| Other Tools | Flask-Gravatar, Flask-Bootstrap |
 
 
 ## 📦 Key Dependencies
@@ -62,7 +97,20 @@ SQLAlchemy: 2.0.25
     ├── post.html
     └── register.html
 ```
+## 🗂️ Database Models
 
+👤 User  
+- id, name, email, password  
+- Relationship: One-to-Many with BlogPost and Comment  
+
+📰 BlogPost  
+- id, title, subtitle, body, date, img_url  
+- Relationship: Many-to-One with User, One-to-Many with Comment  
+
+💬 Comment  
+- id, text, author_id, post_id  
+- Relationship: Many-to-One with User and BlogPost
+  
 ## 🛠️ Development Setup
 
 ### Python Setup
