@@ -121,11 +121,13 @@ SQLAlchemy: 2.0.25
    - Unix/MacOS: `source venv/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`
 
-
 📸 Screenshots 
+
+
 🏠 Home Page		
 
-	![WhatsApp Image 2025-11-06 at 18 58 57_39cdac6e](https://github.com/user-attachments/assets/4af93be6-3c20-4014-b41b-89f3a24044d3)
+![WhatsApp Image 2025-11-06 at 18 58 57_8aaf209b](https://github.com/user-attachments/assets/4c21c007-7609-4344-9f04-0fd57a1bdb40)
+
 
 📰 Blog Post
 	![WhatsApp Image 2025-11-06 at 19 06 27_130f132e](https://github.com/user-attachments/assets/bceb25bc-6077-4a5e-b1f3-d7a8f8bd349a)
@@ -134,8 +136,6 @@ SQLAlchemy: 2.0.25
 
 ![WhatsApp Image 2025-11-06 at 19 07 18_259a911d](https://github.com/user-attachments/assets/0bb7b064-d74f-47d6-b1aa-0d861923cc0b)
 
-
-🖼️ Replace these placeholder images with actual screenshots of your project.
 
 🧠 Learning Highlights
 
@@ -175,9 +175,9 @@ Open a Pull Request 📨
 👋 Piyush Pal
 🎓 B.Tech in Computer Science Engineering
 💡 Passionate about Python, Web Development, and Software Engineering
-🌐 GitHub: https://github.com/your-username
+🌐 GitHub: [https://github.com/your-username](https://github.com/Piyushpal017/)
 
-💼 LinkedIn: https://www.linkedin.com/
+💼 LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/in/piyush-pal13/)
 
 📜 License
 
